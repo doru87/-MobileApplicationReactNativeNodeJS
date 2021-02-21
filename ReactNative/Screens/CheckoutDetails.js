@@ -29,7 +29,7 @@ const CheckoutDetails = ({ navigation }) => {
   const [currentLocation, setCurrrentLocation] = React.useState([]);
   const [errorMessage, setErrorMessage] = React.useState(null);
 
-  const apiKey = "AIzaSyAP1romFm4ZTiYFJNLyepHhiwGfsBXXuMs";
+  const apiKey = "";
 
   const stripe = useStripe();
   const elements = useElements();
