@@ -5,7 +5,7 @@ import { loadStripe } from "@stripe/stripe-js";
 import CheckoutDetails from "./CheckoutDetails";
 
 const stripePromise = loadStripe(
-  "pk_test_51IDASUGMKwBbdaOByrLwMB4BUCy1pu34phvsg39UIXdsOIFqpKZqeRzgBjDiWoHGfBg5UNDpbdt4PikZk0fLFE1c00vXq5PEjk"
+  ""
 );
 
 const Stripe = ({ navigation }) => {
